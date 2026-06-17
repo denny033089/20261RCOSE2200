@@ -4,6 +4,8 @@
 void reverse_string(char *str);
 
 int main() {
+    char text[] = "Hello World";
+    reverse_string(text);
     printf("String Reverse Tool\n");
     return 0;
 }
