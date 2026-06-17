@@ -6,6 +6,7 @@ void to_uppercase(char *str);
 
 int main() {
     char text[] = "Hello World";
+    to_uppercase(text);
     //this funct reverse a given string
     reverse_string(text);
     printf("String Reverse Tool\n");
