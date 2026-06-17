@@ -5,6 +5,7 @@ void reverse_string(char *str);
 
 int main() {
     char text[] = "Hello World";
+    //this funct reverse a given string
     reverse_string(text);
     printf("String Reverse Tool\n");
     return 0;
