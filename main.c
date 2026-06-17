@@ -20,3 +20,12 @@ void reverse_string(char *str) {
         str[len - 1 - i] = temp;
     }
 }
+
+void to_uppercase(char *str) {
+    while (*str) {
+        if (*str >= 'a' && *str <= 'z') {
+            *str = *str - 32;
+        }
+        str++;
+    }
+}
