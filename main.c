@@ -13,6 +13,7 @@ int main() {
     return 0;
 }
 
+
 void reverse_string(char *str) {
     if (str == NULL) return;
     int len = strlen(str);
@@ -22,6 +23,7 @@ void reverse_string(char *str) {
         str[len - 1 - i] = temp;
     }
 }
+
 
 void to_uppercase(char *str) {
     if (str == NULL) return;
