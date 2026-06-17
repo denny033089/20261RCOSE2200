@@ -2,6 +2,7 @@
 #include <string.h>
 
 void reverse_string(char *str);
+void to_uppercase(char *str);
 
 int main() {
     char text[] = "Hello World";
